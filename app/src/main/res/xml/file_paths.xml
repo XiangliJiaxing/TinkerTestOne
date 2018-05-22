@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--<external-path-->
+        <!--name="files_root"-->
+        <!--path="Android/data/com.vito.property/" />-->
+    <!--<files-path-->
+        <!--name="new_apk_path"-->
+        <!--path="." />-->
+    <!--&lt;!&ndash;拍照&ndash;&gt;-->
+    <!--<external-path-->
+        <!--name="img_path"-->
+        <!--path="/vito_property/DCIM/" />-->
+
+
+    <!--bugly升级配置-->
+    <!-- /storage/emulated/0/Download/${applicationId}/.beta/apk-->
+    <external-path
+        name="beta_external_path"
+        path="Download/" />
+    <!--/storage/emulated/0/Android/data/${applicationId}/files/apk/-->
+    <external-path
+        name="beta_external_files_path"
+        path="Android/data/" />
+</paths>
